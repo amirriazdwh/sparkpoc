@@ -2,8 +2,7 @@ package training.sqlFileProcessing
 
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.{SparkConf, SparkContext}
-// testing githab
-// this is the second line of comments
+
 object loadAvroFile {
   def main (args:Array[String]): Unit = {
     val config  = new SparkConf().setAppName("Load Avro Data")

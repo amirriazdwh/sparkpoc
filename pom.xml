@@ -93,8 +93,10 @@ Don't use dates as they are usually associated with SNAPSHOT (nightly) builds
             <plugin>
                 <groupId>net.alchim31.maven</groupId>
                 <artifactId>scala-maven-plugin</artifactId>
-                <!-- upgrade maven to 3.1.6 -->
+                <!-- upgrade maven to 3.1.6-->
                 <version>3.1.6</version>
+               <!-- <version>4.3.1</version> -->
+
                 <configuration>
                     <!-- add these two tags-->
                     <scalaCompatVersion>${scala.minor.version}</scalaCompatVersion>

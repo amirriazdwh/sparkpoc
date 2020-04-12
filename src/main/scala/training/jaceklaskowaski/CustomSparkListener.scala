@@ -1,6 +1,5 @@
 package pl.jaceklaskowski.spark
 
-// this is a listen
 import org.apache.spark.scheduler.{SparkListenerStageCompleted, SparkListener, SparkListenerJobStart}
 
 class CustomSparkListener extends SparkListener {

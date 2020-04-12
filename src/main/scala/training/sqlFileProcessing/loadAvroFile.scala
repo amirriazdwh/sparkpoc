@@ -21,3 +21,18 @@ object loadAvroFile {
   }
 
 }
+//
+//--conf PROP=VALUE           Arbitrary Spark configuration property.
+//--properties-file FILE      Path to a file from which to load extra properties. If not
+//specified, this will look for conf/spark-defaults.conf.
+
+//import java.util.Base64 // for base64
+//import java.nio.charset.StandardCharsets // for base64
+//val properties = new java.util.Properties()
+//properties.put("driver", "com.mysql.jdbc.Driver")
+//properties.put("url", "jdbc:mysql://mysql-host:3306")
+//properties.put("user", "test_user")
+//val password = new String(Base64.getDecoder().decode(spark.conf.get("spark.jdbc.b64password")), StandardCharsets.UTF_8)
+//properties.put("password", password)
+//val models = spark.read.jdbc(properties.get("url").toString, "ml_models", properties)
+

@@ -46,7 +46,7 @@ package object BroadCastVariables {
   val added = input.map(x => broadcastVar.value + x)
   //added: org.apache.spark.rdd.RDD[Int] = MapPartitionsRDD[20] at map at <console>:31
 
-  //added.foreach(println)
+  added.foreach(println)
   // 5
   // 3
   //4
